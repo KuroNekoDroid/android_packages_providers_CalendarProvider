@@ -43,6 +43,12 @@ android_app {
     jacoco: {
         include_filter: ["com.android.providers.calendar.*"],
     },
+    optimize: {
+        enabled: true,
+        optimize: true,
+        shrink: true,
+        obfuscate: true,
+    },
 }
 
 platform_compat_config {
